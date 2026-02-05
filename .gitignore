@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Output files (keep structure, ignore contents)
+output/*.json
+output/*.jpg
+output/*.png
+output/*.txt
+!output/.gitkeep
+
+# User configuration (use examples instead)
+config.yaml
+STYLE_GUIDE.md
+
+# Data files
+data/feeds.csv
+data/post_memory.json
+!data/.gitkeep
+
+# Content samples (user-specific)
+examples/content_samples/*.md
+!examples/content_samples/*.example.md
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Playwright
+.playwright-mcp/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Credentials (never commit)
+credentials.json
+token.json
+*.pem
+*.key

@@ -1,0 +1,15 @@
+# RSS to LinkedIn - Python Dependencies
+
+# RSS Feed Parsing
+feedparser>=6.0.0
+
+# Image Generation
+Pillow>=10.0.0
+requests>=2.28.0
+
+# Configuration
+PyYAML>=6.0
+
+# Optional: Browser Automation (for Google Docs)
+# Install separately: npx playwright install chromium
+# playwright>=1.40.0

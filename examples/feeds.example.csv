@@ -1,0 +1,21 @@
+Source Name,Category,Priority,RSS Feed URL,Website URL,Coverage Description
+TechCrunch,Tech News,High,https://techcrunch.com/feed/,https://techcrunch.com,Startup and technology coverage
+Reuters Business,Finance,Critical,https://feeds.reuters.com/reuters/businessNews,https://reuters.com,Global business and financial news
+Hacker News,Tech,Medium,https://news.ycombinator.com/rss,https://news.ycombinator.com,Tech community discussions and links
+The Verge,Tech News,Medium,https://www.theverge.com/rss/index.xml,https://theverge.com,Technology and culture
+Wired,Tech,Medium,https://www.wired.com/feed/rss,https://wired.com,In-depth tech analysis
+Bloomberg Technology,Finance,High,https://feeds.bloomberg.com/technology/news.rss,https://bloomberg.com/technology,Tech business news
+Financial Times,Finance,Critical,https://www.ft.com/rss/home,https://ft.com,Global financial news
+Wall Street Journal,Finance,High,https://feeds.a]a]wsjcom/wsj/xml/rss/3_7085.xml,https://wsj.com,Business and markets
+Harvard Business Review,Business,Medium,https://hbr.org/rss,https://hbr.org,Management and strategy insights
+MIT Technology Review,Tech,High,https://www.technologyreview.com/feed/,https://technologyreview.com,Emerging technology analysis
+Stratechery,Tech Analysis,Critical,https://stratechery.com/feed/,https://stratechery.com,Tech strategy analysis
+Benedict Evans Newsletter,Tech Analysis,High,https://www.ben-evans.com/benedictevans?format=rss,https://ben-evans.com,Tech industry analysis
+a]6z Blog,VC/Startups,High,https://a16z.com/feed/,https://a16z.com,Venture capital perspectives
+First Round Review,Startups,Medium,https://review.firstround.com/feed.xml,https://firstround.com/review,Startup operational advice
+The Information,Tech Business,Critical,https://www.theinformation.com/feed,https://theinformation.com,Tech industry scoops
+Protocol,Tech Policy,High,https://www.protocol.com/feeds/feed.rss,https://protocol.com,Tech and policy intersection
+Rest of World,Global Tech,Medium,https://restofworld.org/feed/,https://restofworld.org,Tech outside Silicon Valley
+Finextra,Fintech,High,https://www.finextra.com/rss/headlines.aspx,https://finextra.com,Financial technology news
+Payments Dive,Payments,Critical,https://www.paymentsdive.com/feeds/news/,https://paymentsdive.com,Payments industry coverage
+PYMNTS,Payments,High,https://www.pymnts.com/feed/,https://pymnts.com,Payments and commerce

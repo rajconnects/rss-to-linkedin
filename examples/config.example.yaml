@@ -1,0 +1,157 @@
+# RSS to LinkedIn Configuration
+# Copy this to config.yaml and customize for your setup
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# GOOGLE DOCS SETTINGS
+# ═══════════════════════════════════════════════════════════════════════════════
+google_docs:
+  # Your Google Doc URL (must be publicly editable or you must be signed in)
+  url: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID_HERE/edit"
+
+  # Create a new tab for each day's posts
+  create_daily_tabs: true
+
+  # Archive format
+  date_format: "YYYY-MM-DD"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# CONTENT SETTINGS
+# ═══════════════════════════════════════════════════════════════════════════════
+content:
+  # Number of posts to generate per day
+  posts_per_day: 3
+
+  # How far back to look for articles (hours)
+  lookback_hours: 24
+
+  # Minimum relevance score to consider an article (0.0 - 1.0)
+  min_relevance_score: 0.5
+
+  # Word count range for posts
+  min_words: 150
+  max_words: 250
+
+  # Maximum hashtags per post
+  max_hashtags: 2
+
+  # Maximum emojis per post (use sparingly)
+  max_emojis: 1
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# SCORING WEIGHTS
+# ═══════════════════════════════════════════════════════════════════════════════
+# How articles are ranked for selection
+scoring:
+  # Alignment with your content pillars
+  pillar_relevance: 3.0
+
+  # Contains specific data points, numbers, statistics
+  data_density: 2.0
+
+  # Offers a non-obvious angle or insight
+  counterintuitive_potential: 2.0
+
+  # Fits your overall content strategy
+  strategy_alignment: 2.0
+
+  # Breaking news vs. evergreen
+  timeliness: 1.0
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# POSTING SCHEDULE
+# ═══════════════════════════════════════════════════════════════════════════════
+# Recommended posting times (adjust for your timezone)
+schedule:
+  timezone: "Asia/Kolkata"  # IST
+
+  morning:
+    time: "08:00-09:00"
+    description: "Catch early commuters and morning scrollers"
+
+  afternoon:
+    time: "12:30-13:30"
+    description: "Lunch break engagement"
+
+  evening:
+    time: "18:00-19:00"
+    description: "End of workday wind-down"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# IMAGE GENERATION
+# ═══════════════════════════════════════════════════════════════════════════════
+images:
+  # Enable/disable image generation
+  enabled: true
+
+  # Image dimensions (LinkedIn recommended)
+  width: 1200
+  height: 627
+
+  # Visual style
+  style: "dark_gradient"  # Options: dark_gradient, light_clean, bold_color
+
+  # Font for text overlay
+  font: "BebasNeue"  # Options: BebasNeue, Anton, Lato
+  font_size: 102
+  line_height: 90
+
+  # Text position
+  text_position: "top_left"  # Options: top_left, center, bottom_left
+  text_margin: 60
+
+  # Accent color for emphasis (hex)
+  accent_color: "#DC2626"  # Red
+
+  # Background brightness (0.0 - 1.0, lower is darker)
+  background_brightness: 0.5
+
+  # Gradient settings
+  gradient:
+    enabled: true
+    width_percent: 0.6
+    direction: "left_to_right"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# MEMORY SETTINGS
+# ═══════════════════════════════════════════════════════════════════════════════
+memory:
+  # Days to look back when filtering used articles
+  article_lookback_days: 30
+
+  # Track angles to ensure variety
+  track_angles: true
+
+  # Track content pillars for balance
+  track_pillars: true
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# FILTERING RULES
+# ═══════════════════════════════════════════════════════════════════════════════
+filters:
+  # Topics to always exclude
+  exclude_topics:
+    - "celebrity gossip"
+    - "political opinion"
+    - "clickbait"
+
+  # Keywords that indicate low-quality content
+  exclude_keywords:
+    - "you won't believe"
+    - "shocking"
+    - "breaking"
+
+  # Minimum article length (characters)
+  min_article_length: 200
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# ADVANCED
+# ═══════════════════════════════════════════════════════════════════════════════
+advanced:
+  # Number of parallel RSS fetch threads
+  fetch_threads: 10
+
+  # Request timeout for RSS feeds (seconds)
+  fetch_timeout: 30
+
+  # Debug mode (verbose logging)
+  debug: false
