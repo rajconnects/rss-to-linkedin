@@ -8,6 +8,8 @@ Transform industry news into engaging LinkedIn posts that match your unique voic
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-purple.svg)
 
+> **v2.0 Update (Feb 2026):** Now with 20 strategic frameworks, 6-dimension scoring (max 30 points), and ~500-word post depth. See [Strategic Frameworks](#strategic-frameworks) and [6-Dimension Scoring](#6-dimension-scoring-system) sections below.
+
 ---
 
 ## How It Works
@@ -20,7 +22,7 @@ RSS Feeds → Article Scoring → Post Drafting → Image Generation → Google 
 
 1. **Ingest** — Fetches articles from your RSS feeds (last 24-48 hours)
 2. **Filter** — Removes duplicates, off-topic content, and previously used articles
-3. **Score** — Ranks articles by relevance, data density, and your content strategy
+3. **Score** — Ranks articles using 6-dimension scoring: non-obviousness, business impact, problem-solving, framework strength, analogy potential, and evidence quality (max 30 points)
 4. **Draft** — Generates 3 LinkedIn posts using varied storytelling angles
 5. **Image** — Creates branded images with text overlays for each post
 6. **Archive** — Pastes posts to Google Docs via Playwright (one tab per day)
@@ -136,6 +138,13 @@ Define 3-5 themes you consistently write about:
 4. Data-driven observations
 5. Founder/practitioner perspectives
 
+### Post Structure (v2.0)
+- **Length:** ~500 words (400-600 range) for depth
+- **Hook:** Analogy-driven or pattern recognition (not data-first)
+- **Structure:** Paragraphs (2-4 sentences each), not bullets
+- **Style:** Assertive, no hedging ("The data shows..." not "I think maybe...")
+- **Elements:** Historical compression, business problem, unsexy truths, "Think X, not Y" framing
+
 ### Content Samples
 Include 3-5 examples of posts you've written that capture your voice.
 
@@ -143,20 +152,66 @@ See `examples/style_guide.example.md` for a template.
 
 ---
 
-## Storytelling Angles
+## Strategic Frameworks
 
-The workflow automatically varies post structure using 6 angles:
+The v2.0 workflow uses 20 strategic frameworks to identify high-value insights:
 
-| Angle | When Used | Structure |
-|-------|-----------|-----------|
-| **Data Bomb** | Strong numbers available | Numbers → Why → Implication |
-| **Practitioner Signal** | Operational news | News → Practical impact → Who cares |
-| **Contrarian Reframe** | Conventional wisdom exists | Common view → Challenge → New frame |
-| **History Arc** | Policy shifts, long trends | Present → Past → Insight |
-| **Forward Look** | Early signals, emerging trends | Event → Future → What to watch |
-| **First Principles** | Complex topics | Concept → Breakdown → Big picture |
+### Pattern Recognition Frameworks
 
-No two posts in a daily batch use the same angle.
+1. **Historical Compression** — Doing in 5 years what took others 30
+2. **Infrastructure Inversion** — Infrastructure enabling unexpected outcomes
+3. **Dead Zone Serve** — Underserved markets becoming strategic overnight
+4. **Unsexy Champions** — Hidden B2B winners in supply chains
+5. **Quality Repositioning** — From "cheap" to "premium" perception shift
+
+### Policy & Structure Frameworks
+
+6. **Bilateral Framework Leverage** — FTAs as strategic tools, not just tariffs
+7. **Formalization Unlock** — Regulatory changes creating competitive moats
+8. **Velocity Mismatch** — Speed differences creating opportunity windows
+9. **Accidental Infrastructure** — Policy creating unintended capabilities
+10. **Compliance as Moat** — Regulated players gaining structural advantage
+
+### Data & Transparency Frameworks
+
+11. **Data Trail Emergence** — Transparency becoming competitive edge
+12. **Market Size Correction** — Debunking narratives with real data
+13. **Middle Layer Solution** — Mid-complexity opportunity recognition
+14. **Transparency Premium** — Visibility creating credit access
+
+### Infrastructure & Evolution Frameworks
+
+15. **Payment Rails Maturation** — Infrastructure → platform evolution
+16. **Currency Corridor Emergence** — New settlement routes opening
+17. **Value Chain Invisibility** — Hidden players in supply chains
+18. **Parallel System Evolution** — Multiple systems developing simultaneously
+19. **Legitimacy Shift** — Informal → formal transition effects
+20. **Policy Clarity Unlock** — Regulatory certainty enabling investment
+
+Each post fits 1-2 frameworks. Posts in a daily batch use different frameworks to ensure content diversity.
+
+---
+
+## 6-Dimension Scoring System
+
+Articles are scored on a 30-point scale (1-5 per dimension):
+
+| Dimension | What It Measures | Target |
+|-----------|------------------|--------|
+| **Non-Obviousness** | Hidden insights most would miss | Unsexy truths, second-order effects |
+| **Business Impact** | Changes how companies think about strategy | Market entry, operations, positioning |
+| **Problem-Solving** | Addresses critical business challenges | Viability, revenue, logistics |
+| **Framework Strength** | Fits strategic frameworks cleanly | Clear pattern recognition |
+| **Analogy Potential** | Historical parallels exist | Makes complex insights accessible |
+| **Evidence Quality** | Data/proof available | Specific numbers, timelines |
+
+**Scoring Thresholds:**
+- **24-30** — Breakthrough insight (top priority)
+- **20-23** — Strong strategic value
+- **16-19** — Useful context
+- **<16** — Skip
+
+Target: Select posts scoring 23+ with different frameworks for maximum content diversity.
 
 ---
 
